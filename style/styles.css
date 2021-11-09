@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "MyRiad";
+  src: url("../fonts/MyriadPro-Regular.ttf");
+}
+@font-face {
+  font-family: DINPro;
+  src: url("../fonts/DINPro.ttf");
+}
+.projects {
+  text-align: center;
+  margin: 65px;
+}
+.projects h1 {
+  font-family: DINPro, sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: #344258;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+.projects p {
+  font-family: MyRiad, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #08172d;
+  max-width: 1100px;
+  margin: 0 auto 30px auto;
+}
+.projects .project_block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 120px;
+}
+.projects .project_block .project_block_one {
+  display: flex;
+}
+.projects .project_block .project_block_one a {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 550px;
+  height: 502px;
+  background: url("../img/img1.png") center center no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+.projects .project_block .project_block_two {
+  display: flex;
+}
+.projects .project_block .project_block_two a {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 550px;
+  height: 502px;
+  background: url("../img/img2.png") center center no-repeat;
+  padding: 40px;
+  background-size: cover;
+}
+.projects .project_block .project_block_three {
+  display: flex;
+}
+.projects .project_block .project_block_three a {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 550px;
+  height: 502px;
+  background: url("../img/img3.png") center center no-repeat;
+  padding: 40px;
+  background-size: cover;
+}
+.projects .project_block a {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.projects .project_block_btn {
+  width: 362px;
+  height: 60px;
+  border: 3px solid #00264c;
+  text-transform: uppercase;
+  color: #344258;
+  font-family: DINPro, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 85px auto 100px auto;
+  align-items: center;
+  background-color: transparent;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #0c1c28;
+}
+footer h2 {
+  color: white;
+  font-family: DINPro, sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 85px;
+  margin-bottom: 75px;
+}
+footer p {
+  font-family: MyRiad, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  max-width: 350px;
+}
+footer .footer_left_phone {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_left_phone a {
+  font-family: MyRiad, sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  outline: none;
+}
+footer .footer_left_mail {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_left_mail p {
+  margin: 0;
+}
+footer .footer_left_mail a {
+  color: #3d95e3;
+  font-size: 18px;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 23px;
+}
+footer .vertical-line {
+  border: 1px solid #0058a7;
+  margin: 0 35px 0 75px;
+  height: 100px;
+  background-color: #0058a7;
+}
+footer .contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+footer form {
+  display: grid;
+  border: 5px solid #546682;
+  padding: 38px;
+  margin-top: 30px;
+  width: 556px;
+  height: 488px;
+  text-align: center;
+  margin-left: 100px;
+}
+footer form input {
+  width: 470px;
+  height: 55px;
+  background-color: #546682;
+  margin-bottom: 2px;
+  padding: 20px;
+  border: none;
+}
+footer form textarea {
+  width: 470px;
+  height: 112px;
+  background-color: #546682;
+  padding: 20px;
+  border: none;
+}
+footer form input::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-family: DINPro, sans-serif;
+  font-weight: 500;
+}
+footer form input::-moz-placeholder {
+  color: white;
+  font-family: DINPro, sans-serif;
+  font-weight: 500;
+}
+footer form textarea::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-family: DINPro, sans-serif;
+  font-weight: 500;
+}
+footer form textarea::-moz-placeholder {
+  color: white;
+  font-family: DINPro, sans-serif;
+  font-weight: 500;
+}
+footer form a {
+  color: #4c89c1;
+  font-family: DINPro, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 20px 0;
+}
+footer form .footer_right_btn {
+  width: 290px;
+  height: 60px;
+  border: 3px solid white;
+  color: white;
+  font-family: DINPro, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin: 0 auto;
+}
+.modal-dialog {
+  max-width: 584px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,226 @@
+// Created by daria on 08.11.2021
+@font-face {
+  font-family: "MyRiad";
+  src: url("../fonts/MyriadPro-Regular.ttf");
+}
+@font-face {
+  font-family: DINPro;
+  src: url("../fonts/DINPro.ttf");
+}
+.projects {
+  text-align: center;
+  margin: 65px;
+  h1 {
+    font-family: DINPro, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #344258;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+  }
+  p {
+    font-family: MyRiad, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #08172d;
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+  }
+  .project_block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 120px;
+    .project_block_one {
+      display: flex;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 550px;
+        height: 502px;
+        background: url("../img/img1.png") center center no-repeat;
+        background-size: cover;
+        padding: 40px;
+      }
+
+    }
+    .project_block_two {
+      display: flex;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 550px;
+        height: 502px;
+        background: url("../img/img2.png") center center no-repeat;
+        padding: 40px;
+        background-size: cover;
+      }
+
+    }
+    .project_block_three {
+      display: flex;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 550px;
+        height: 502px;
+        background: url("../img/img3.png") center center no-repeat;
+        padding: 40px;
+        background-size: cover;
+      }
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      outline: none;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+  .project_block_btn {
+    width: 362px;
+    height: 60px;
+    border: 3px solid #00264c;
+    text-transform: uppercase;
+    color: #344258;
+    font-family: DINPro, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 85px auto 100px auto;
+    align-items: center;
+    background-color: transparent;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #0c1c28;
+  h2 {
+    color: white;
+    font-family: DINPro, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 85px;
+    margin-bottom: 75px;
+  }
+  p {
+    font-family: MyRiad, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    max-width: 350px;
+  }
+  .footer_left_phone {
+    display: flex;
+    flex-direction: column;
+    a {
+      font-family: MyRiad, sans-serif;
+      color: white;
+      font-size: 24px;
+      font-weight: 400;
+      text-decoration: none;
+      outline: none;
+    }
+  }
+  .footer_left_mail {
+    display: flex;
+    flex-direction: column;
+    p {
+      margin: 0;
+    }
+    a {
+      color: #3d95e3;
+      font-size: 18px;
+      text-decoration: none;
+      outline: none;
+      margin-bottom: 23px;
+    }
+  }
+  .vertical-line {
+    border: 1px solid #0058a7;
+    margin: 0 35px 0 75px;
+    height: 100px;
+    background-color: #0058a7;
+  }
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 150px;
+  }
+  form {
+    display: grid;
+    border: 5px solid #546682;
+    padding: 38px;
+    margin-top: 30px;
+    width: 556px;
+    height: 488px;
+    text-align: center;
+    margin-left: 100px;
+    input {
+      width: 470px;
+      height: 55px;
+      background-color: #546682;
+      margin-bottom: 2px;
+      padding: 20px;
+      border: none;
+    }
+    textarea {
+      width: 470px;
+      height: 112px;
+      background-color: #546682;
+      padding: 20px;
+      border: none;
+    }
+    input::-webkit-input-placeholder {
+      color: white;
+      font-size: 15px;
+      font-family: DINPro, sans-serif;
+      font-weight: 500;
+    }
+    input::-moz-placeholder {
+      color: white;
+      font-family: DINPro, sans-serif;
+      font-weight: 500;
+    }
+    textarea::-webkit-input-placeholder {
+      color: white;
+      font-size: 15px;
+      font-family: DINPro, sans-serif;
+      font-weight: 500;
+    }
+    textarea::-moz-placeholder {
+      color: white;
+      font-family: DINPro, sans-serif;
+      font-weight: 500;
+    }
+    a {
+      color: #4c89c1;
+      font-family: DINPro, sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      margin: 20px 0;
+    }
+    .footer_right_btn {
+      width: 290px;
+      height: 60px;
+      border: 3px solid white;
+      color: white;
+      font-family: DINPro, sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      text-transform: uppercase;
+      background-color: transparent;
+      margin: 0 auto;
+    }
+  }
+}
+.modal-dialog {
+  max-width: 584px;
+}
